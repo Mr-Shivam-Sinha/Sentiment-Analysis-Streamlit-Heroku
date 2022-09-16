@@ -25,7 +25,7 @@ def sentiment_dep():
     </div>
     """
     st.markdown(html,unsafe_allow_html=True)
-    comment=st.text_area("",placeholder="Write comments here",height=100)
+    comment=st.text_area("",placeholder="Write comments here",height=10)
 
     result=""
     if st.button("Check_Sentiment"):
