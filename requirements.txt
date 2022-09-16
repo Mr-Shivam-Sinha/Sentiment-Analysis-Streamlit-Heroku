@@ -1,4 +1,4 @@
 pandas
-re
-TextBlob
+regex
+textblob
 streamlit
