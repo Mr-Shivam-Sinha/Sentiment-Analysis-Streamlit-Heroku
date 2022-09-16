@@ -7,10 +7,10 @@ import streamlit as st
 
 def sentiment_analysis(my_comment):
     
-    sentiment=TextBlob(my_comment).sentiment.polarity
-    if (sentiment>0):
+    sentiments=TextBlob(my_comment).sentiment.polarity
+    if (sentiments>0):
         return "Positive"
-    elif(sentiment<0):
+    elif(sentiments<0):
         return "Negative"
     else:
         return "Neutral"
